@@ -1,0 +1,71 @@
+.single-slider-item{
+     height: 450px;
+     background: url('../green-leafed-plant-3571563.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     margin-top: 100px;
+}
+
+
+.single-slider-item {
+     margin-bottom: 200px;
+     position: relative;
+   }
+   .slide-text {
+     color: #fff;
+     background: #1784C7;
+     padding: 70px 50px;
+     text-transform: capitalize;
+   }
+   .slide-text h2 {
+     font-size: 36px;
+     font-weight: 600;
+     margin-bottom: 20px;
+   }
+   .slide-text p {
+     font-size: 19px;
+     line-height: 1.9;
+     color: #fff;
+   }
+   .slide-text .boxed-btn {
+     display: inline-block;
+     color: #fff;
+     background: #3E4043;
+     text-transform: uppercase;
+     padding: 15px 35px;
+     text-decoration: none;
+   }
+   .slide-text {
+     position: relative;
+   }
+   .slide-text:before {
+     position: absolute;
+     width: 1000%;
+     height: 100%;
+     content: '';
+     background: #1784C7;
+     left: -1000%;
+     top: 0;
+   }
+
+   
+.slide-text-area {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+   }
+
+   
+.slide-text:after {
+     content: '';
+     width: 20px;
+     height: 20px;
+     background: #1784C7;
+     position: absolute;
+     right: 0;
+     top: 50px;
+     transform: rotate(45deg);
+     margin-right: -10px;
+   }
